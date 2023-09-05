@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Giphy API</title>
 </head>
+
 <body>
-  
+  <div class="container">
+    <h1>Search up some GIPHYs!</h1>
+    <p>Use the searchbar to find some gifs.</p>
+    <form>
+      <label for="gif">Enter your search here: </label>
+      <input id="gif" type="text" name="gif" value="search your gif!">
+      <button type="submit" class="btn-success" id="search">Find some gifs!</button>
+      <button type="button" class="btn-success" id="trending">See what is trending!</button>
+    </form>
+    <div id="showResponse"></div></br>
+
+    <p id="showResponse"></p>
+  </div>
 </body>
+
 </html>
